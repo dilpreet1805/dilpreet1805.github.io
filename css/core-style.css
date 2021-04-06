@@ -1927,3 +1927,37 @@ span.accor-open {
 	border-radius: 10px;
 	opacity:0.7;
 }
+
+
+/* Admin Section */
+
+.login-area form
+{
+    padding: 10px;
+    box-shadow: 0 4px 2px 0 #ecb4b4;
+}
+
+.login-area .logo-container
+{
+    padding:15px;
+}
+
+#signUpForm,
+#confirmOtp,
+#forgotPassword,
+#changePassword
+{
+    display:none;
+}
+
+.login-area form .text-area
+{
+    padding: 10px 0  0 15px;
+}
+
+.login-area form .text-area span
+{
+    color: #2f88fd;
+    font-weight: 600;
+    cursor: pointer;
+}
